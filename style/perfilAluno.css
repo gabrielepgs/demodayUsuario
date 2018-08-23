@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:400,400italic");
+@import url("https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+main {
+  margin-left: 100px;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+}
+nav#sidebar {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  width: 100px;
+  height: 100%;
+}
+ul.dots * {
+  /* disable border-box from bootstrap */
+  box-sizing: content-box;
+  list-style-type: none;  
+}
+ul.dots a {
+  margin-top: 10vh;
+  text-decoration: none;
+  font-size: 20px;
+  color: #75a3a3;
+}
+ul.dots a:hover {
+  text-decoration: none;
+  font-size: 20px;
+  color: #bdc3c7;
+}
+ul.dots li {
+  margin-left: -20%;
+  margin-top: 4vh;
+  display: box;
+  position: relative;
+  width: 100%;
+  padding: 10px 0 ;  
+}
+ul.dots li:hover {
+  background: rgba(255,255,255, 0.0);
+}
+ul.dots li span {
+  display: block;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px; 
+  background-color: #FFF;
+  -webkit-box-shadow: 1px 1px 5px #808080;
+  -moz-box-shadow: 1px 1px 5px #808080;
+  box-shadow: 1px 1px 5px #808080;  
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  line-height: 30px;
+  text-align: center;
+  position: relative;
+}
+
+li {
+  list-style-type: circle;
+}
+
+code {
+  background: #ecf0f1;
+}
+
+/******* FIM CSS DA NAV BAR***************************************************************/
+
+body{
+  
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b0d4e3+0,88bacf+100;Grey+3D+%233 */
+background: #d6d6c2; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #d6d6c2 0%, #d6d6c2	100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #d6d6c2 0%,#d6d6c2	100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #d6d6c2	0%,#d6d6c2	100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6c2', endColorstr='#d6d6c2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+
+/******* CSS BODY PLANO DE FUNDO ***************************************************************/
+
+/*CSS Conteudo*/
+#perfilAluno{
+   
+  width: 100%;
+  height: auto; 
+
+}
+
+input.hidden {
+    position: absolute;
+    width: 100%;
+}
+
+#profile-image1 {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+      border:2px solid #03b1ce ;}
+      .title{ font-size:16px; font-weight:500;}
+      .bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0}	
+
+.panel-default{
+    width: 175%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 8%;
+    left: 25%;    
+     }
+
+.panel-heading{
+  width: 100%;
+  margin: auto;
+   }
+   
+.panel-body{
+  width: 100%;
+}
+    
+#eventos{
+
+  width: 100%;
+}
+
+#mensagens{
+
+  width: 100%;
+  height: auto;
+
+}
+
+
+/*FIM CSS Conteudo*/
+
+
+/* imagem do logo */
+
+.image-logo{
+  width: 80px;
+  height: 10vh;
+}
+
+.image-logo img{
+  margin-left: -37%;
+  margin-top: 2vh;
+  width: 100%;
+}
+
+/* fim imagem do logo */
+
+/* ********************************************************** */
+table{
+  width: 100%;
+}
+
+.table.info { width: 100%; margin: 0 auto; border-spacing: 0 6px; }
+.table.info th, table.info td { padding: 12px; padding-right: 70px; vertical-align: center; color: rgb(68,68,68); }
+    .table.info caption { background-color: rgb(90,85,90); font-weight: bold; color: rgb(255,255,255); padding-top: .7em; padding-bottom: .7em; letter-spacing: .085em;}
+    .table.info th { text-align: left; }
+.table.info td { background-color: rgb(27, 50, 58);
+  
+}
+    .date { display: inline-block; background-color: rgb(68,68,68); color: #fff; padding: 10px; 
+        border-radius: 30%; }
+    .table.info a { color: rgb(3,95,123); text-decoration: underline; }
+.table.info a:hover { text-decoration: none; }
+tr{
+  border-top: solid 0.5px grey;
+  border-block-end-width: 100%;
+}
